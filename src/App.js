@@ -7,127 +7,147 @@ import rimg from "./images/R.svg"
 function App() {
   return (
     <div className="App">
-     
-    <p class="text-xl bn">
-    Article View
-</p>
- <p className="text-2xl mt-8 nm"><strong>
- Manish Mehta: Sustainable and tricky materials work well with CI flexo</strong>
- </p>
- <p className="text-2xs mt-8 kl">
- Manish Mehta, managing director, Reifenhäuser India talks about how gravure and CI flexo are competing in terms of space, speed, cost and more. He highlights the benefits of CI flexo trade shops which is scaling up the industry
- </p>
- <p className="text-xs mt-4 kk">
- 23 Oct 2017 | 6 Mins read - By Abhay Avadhani
- </p>
- <img className ="wwe" src={rimg} alt ="image"></img>
-<center><img className="ima"  src={img} alt="image"></img></center>
-<p className="text-xl mt-8 nnm"><strong>
-Abhay Avadhani (AA): How is flexo competing with gravure on things like speed to market, sustainability?Manish Mehta (MM):
-</strong></p>
-
- <p className="text-2xs mt-8 kkl">
- With the help of flexo trade shops, a plate can be made available in less than four hours. Delivery in 24 hrs is quite normal in the flexo market. Whereas, a gravure cylinder would take at least four days to be delivered from the manufacturer to the converter. In most cases, if it is a matter of urgency then the brand owner either has to approach a converter who has a cylinder-making facility or move to flexo. It is much easier to manage promotions, minor changes and corrections in the job with flexo than gravure.
- </p>
- <p className="text-xl mt-8 nnm"><strong>
- AA: Converters believe that, the finer the line screen, the better the image. In order to achieve high LPI, the press speed can be reduced, and does that not lead to a drop in efficiency?MM:
-</strong></p>
-
- <p className="text-2xs mt-8 kkl">
- For sure, higher the line screen, the better would be the printed image. However, most of the flexo converters are still working with 120 to 150 LPI and some have now progressed to 175 LPI.
-If the flexo machine has got the right precision in control, then the speed of the press need not be reduced. This can result in a high quality print, but also a longer life of the dot. We already have customers working with higher screens running at very high speeds for mid to long runs in reverse printing as well.
- </p>
- <img className ="we" src={rimg} alt ="image"></img>
- <p className="text-xl mt-8 nnm"><strong>
- AA: In the aspect of effectiveness, inventory and cost of gravure cylinders is high as compared to flexo, and the space taken by 10-15 jobs of gravure = space taken by 100 jobs of flexo. What is your take on this?
-</strong></p>
-
- <p className="text-2xs mt-8 kkl">
- It is quite common that mid-sized gravure converters have amassed a large number of cylinders that they “may” be reused year after year. As a result, the consumption of space eventually turns out to be quite huge, and sometimes it is good enough to even accommodate high-speed gravure lines. Flexo plates on the other hand are thin and can be stored vertically as well with automated storage systems, which can be really optimised to store hundreds of jobs.
-Today, gravure converters seldom value the space and hence, there has not been a calculation as to what kind of cost is really being incurred for storing these cylinders. The moment this is factored in, a lot of perceptions will change in the market.
-
- </p>
- <p className="text-xl mt-8 nnm"><strong>
- AA: There are trade shops in every major city who have flexo expertise. To what extent has the trade shop benefitted the CI flexo movement in India?MM:
-</strong></p>
-
- <p className="text-2xs mt-8 kkl">
- One of the hurdles in the flexo growth story, was the non-availability of good plate-making solutions and trade shops, where flexo jobs could be well defined - or even gravure jobs could be converted to flexo. India has always been predominantly a gravure market. With increase in trade shops and fantastic developments in plate-making technology, flexo and gravure stand together on a comparable dias. This has led to an increase in print quality. Additionally, flexo still continues to be the best solution for printing on thinner materials as well as extensible and tricky materials which are not so easy to control on the gravure press.
- </p>
- <p className="text-xl mt-8 nnm"><strong>
- AA: How much process control is required to get the expected performance out of the plate even though it's integrated with CI flexo?MM:
-</strong></p>
-
- <p className="text-2xs mt-8 kkl">
- A good plate and a good machine will always go hand in hand. While plate-making solutions today are so advanced that one can get a good plate, the same cannot be said for the CI flexo presses. Even in the case of flexo machines which have advanced technologies, it is still not an easy deliverable for all.
-We feel pressure control and the consistency in controlling it plays a huge role not only in terms of print quality, but in the life of the plate as well. The precision and control of the relevant components such as the CI drum, mandrills and sleeves, which has a role to play in maximising plate quality and plate performance, is also critical.
- </p>
- <p className="text-xl mt-8 nnm"><strong>
- AA: How can flexo become more popular with the implementation of EPR and single-use plastics ban?MM:
-</strong></p>
-
- <p className="text-2xs mt-8 kkl">
- I am not sure if it is right to link flexo printing with EPR or single use plastics. Flexo does offer the possibility to work with thinner materials, mono materials , materials of the same family etc. But materials like BOPP have traditionally been printed with gravure and quite successfully at that . However , Flexo does increase the scope of materials like MDO Pe & PE/PE laminates which could play a very strong role in replacing other laminates which are not possible to recycle, of course depending on the applications. This will definitely go a long way in assisting in the EPR. Furthermore, generation of waste and the carbon footprint itself is definitely less with the flexo process.
-On the other side Flexo printing technology as well as machines can use water based as well as EB cured ink on mono material laminate to complete recyclability as well as gain big mileage on carbon footprint.
- </p>
- <p className="text-xl mt-8 nnm"><strong>
- AA: How does screening impact the converters and what is the best technology out there?MM:
-</strong></p>
-
- <p className="text-2xs mt-8 kkl">
- Today quite a number of trade shops as well as the plate suppliers are introducing different kinds of dots and different combinations of screens . Add to that a stronger dot with a longer life , the combination of AM and FM screens and higher LPI , is actually making it difficult to distinguish if the job has been printed by gravure or flexo, unless seen minutely with a magnifying glass. Of late, there is a lot of traction for hybrid dot screens introduced by some trades shops, but as we see in the market, most work with combinations best suitable for the job/motif to be printed.
- </p>
- <p className="text-2xl mt-8 jk">Related Blogs</p>
- <div className="w-screen fg">
-        <Slider options={{ align: "center" }}>
-          {testimonials.map((testimonial, i) => (
-            // 3. flex-[0_0_50%] set the width of each card to 50% of the viewport
-            // for mobile devices we use 90% width
-            <div key={i} className="flex-[0_0_90%] md:flex-[0_0_23%]">
-              <div className="h-80 py-4 px-4 bg-white shadow-lg rounded-lg my-20">
-              <div className="flex justify-center md:justify-end -mt-16">
-              <div style={{ height: '30vh', width: '100%' }}>
-    <img
-      className="object-cover border-2 border-indigo-500 w-full h-full"
-      src={testimonial.imgSrc}
-      alt={testimonial.imgSrc}
-    />
-  </div>
-</div>
-
-      
-        {/* <h2 className="text-[#8AA6AA] text-3xl font-semibold">{props.title}</h2> */}
-        <div>
-          <div  className="asdf">
-        {/* <h3 className="mb-4 border-b pb-4 text-3xl leading-tight text-[#8AA6AA] df asdf"><img className="w-150 h-30 object-cover " src={pharma} alt={pharma}></img> &nbsp;Pharma</h3> */}
-        {/* <spacer></spacer> */}
-        
-        </div>
-        <h3 className="mt-2 text-gray-600 kkk za" ><strong>{{...testimonial}.title}</strong></h3>
-        {/* <h5 className="mt-2 text-gray-600 text-md kkk"><strong>{{...testimonial}.content}</strong></h5> */}
-        <h5 className="mt-2 text-gray-600 kkk za" >{{...testimonial}.author}</h5>
-        <h5 className="mt-2 text-gray-600 kkk a" >{{...testimonial}.name}</h5>
-        <h5 className="mt-2 text-gray-600 kkk aa" ><em>{{...testimonial}.position}</em></h5>
-        <h5 className="mt-2 text-gray-600 kkk aaa" >{{...testimonial}.date}</h5>
-      </div>
-      {/* <div className ="mt-2 text-gray-600flex justify-end mt-4 pyu text-[#8AA6AA]">Blow-Fill-Seal, Technology </div>
-      <div className="flex justify-end mt-4 mt-2">
-      <div className="flex flex-row place-items-center gap-3">
-                    <a className="text-[#8AA6AA] font-extrabold">Read more</a>
-                    <img
-                      src={arrow_right}
-                      className="bg-[#8AA6AA] h-6 p-0.5 rounded-full"
-                      alt="Read more"
-                    />
-        
-        </div>
-        
-      </div> */}
-    </div>
+     <br></br><div className="flex flex-col rounded-lg bg-white md:max-w-8xl md:flex-row mm">
+              <div className="flex flex-col p-6">
+                
+                <h5 className="mb-2 text-5xl leading-tight q ll">
+                Our Services
+                </h5>
+                <p className="mb-4 text-2xs mr-20 leading-tight w ll">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.If you are a Hookah business,
+                  please join us and help us defend and protect your business,
+                  our culture and community.
+                </p>
+              </div><br></br><br></br><br></br>
+              {/* <br></br><br></br><br></br><br></br><br></br> */}
+              <img className="fm" src ="https://s3-alpha-sig.figma.com/img/b1b8/d18e/267eb4cae0fdc9ba387659f3a52d9dce?Expires=1699833600&Signature=BOWB0TJwPys9TbpEu-lZ7~UAHCAL8vLwYkD1iP~X-kya6BnxJUSdYX8ufuuxF7iLYG9yMHStK8VnmoG-yqU1t6i4pUAmEpUTBHnJne8uFY2LjEp1jmuDR5SQ2jroN4EA89FuJOj0pGMVKDouOHwV5a9guiBMuuQmzAYDm0RlSjwl2KQES7EZi2eLEAbkRCijmDNDm2jL~n6ZtrBQICYZpwSXkw59uIgdyscpRjcaqO~CYVqZKdA1YhJfG2WIYHVI11Y~qOy1f1IrZ39ooUPB~TY-Ccx2igpm2KxbMwrs4UhQS7rBGzMkEt09~9nl8bTEIYC~XNpsOuxqE7EWXav8VQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="image"></img>
             </div>
-          ))}
-        </Slider>
-      </div>
+            <br></br><div className="flex flex-col rounded-lg bg-white md:max-w-8xl md:flex-row mm">
+              <div className="flex flex-col p-6">
+               
+                <h5 className="mb-2 text-5xl leading-tight q ll">
+                Global Services
+                </h5>
+                <p className="mb-4 text-2xs mr-20 leading-tight w ll">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.If you are a Hookah business,
+                  please join us and help us defend and protect your business,
+                  our culture and community.
+                </p>
+              </div><br></br><br></br><br></br>
+              {/* <br></br><br></br><br></br><br></br><br></br> */}
+              <img className="fm" src ="https://s3-alpha-sig.figma.com/img/515a/f873/289efc601dd8cde8a47a1c3a6b380c6d?Expires=1699833600&Signature=VVjCQNUNKDBTg9ABd1~1RpYIg0QCATqPfk1Pgv34iirBAyVybC67a~yijrdwEHqJm-rwQYYtAOQuKRAe87N~c5aQ8Elh8LEl3kn~AZOOoKtfDgY8y3q3lYfdcV1b-gQK-HLkz~8bxQAvhtrTDwDpvBv4305AGBFgc2nr11k0lr6qDNoaIY4TIVdHSCSszQ-hnwEyHp5W0jdKm1WsBkIqLy023uT3A2tzczQDwa7j~58aw2A5Mm~lnaLz06DVHuX8I5HdhmNrq9YJl7BzO6jqE94ZsN9JGzdAaK1hyOT3rvNE6UiYV6v-4H8NzoCJf9e3bcoci3SsGZlBvQmCC1HxRQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="image"></img>
+            </div>
+            
+            <br></br><div className="flex flex-col rounded-lg bg-white md:max-w-8xl md:flex-row mm">
+            <img className="fm" src ="https://s3-alpha-sig.figma.com/img/5810/e02e/82795898e7fdb257f11aa9e8a6e6cd3c?Expires=1699833600&Signature=iwgGqxCtzVks6EN4fgLAAi11Iiqh~vffA8KY8xC5fGZA7ZzTQu6A9x74QC4UaWgJjQuY~ILqEBm~xDr05xk4gHkIrJSobBZIlP7K5OxrHCV9mfLfUk~iDSvUqYFtg7Fk8Ztz~PcRS-o84Zwsjs~41IO41jnZwNaeiwMkMGC-AYNssoYE2F5ZmtIwpgCCLN0GOGuWDCOJ8nnQkwwftw0vunhIQ8NEp36Ri2LWeMlN59mNcMpj40MfleKtOqOYTUPeSfRrkQ4vmjVh33GYiNTWclAXEx0Yo363WKfWhvLT0YNuNStaS6dCUzaMdPdGtmq5imRtq9IK83NsJI2ZRqk1hg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="image"></img>
+              <br></br><br></br><br></br>
+              <div className="flex flex-col q p-6">
+              
+              
+                
+                <h5 className="mb-2 text-5xl w leading-tight ll">
+                Breakdown Maintenance
+                </h5>
+                <p className="mb-4 text-2xs mr-20 leading-tight  ll">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.If you are a Hookah business,
+                  please join us and help us defend and protect your business,
+                  our culture and community.
+                </p>
+                </div>
+                </div>
+                <br></br><div className="flex flex-col rounded-lg bg-white md:max-w-8xl md:flex-row mm">
+              <div className="flex flex-col p-6">
+                
+                <h5 className="mb-2 text-5xl q leading-tight ll">
+                Installation & Commission
+                </h5>
+                <p className="mb-4 text-2xs mr-20 w leading-tight  ll">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.If you are a Hookah business,
+                  please join us and help us defend and protect your business,
+                  our culture and community.
+                </p>
+              </div><br></br><br></br><br></br>
+              {/* <br></br><br></br><br></br><br></br><br></br> */}
+              <img className="fm" src ="https://s3-alpha-sig.figma.com/img/a519/7692/6a536b4e622139bbc59a315ac38984a3?Expires=1699833600&Signature=J0bpA-u-6gr89Ry-hePzg-8NV3YKrHhclg~MGU-yNOoDhc3l9yK~CJaejBF0~7IEinLjN3vNZuQRVcWvz6QXnPlEWn5RnIbVhuLh~QZnkCxBFlrylXxi0CFz7xe3oeDNQsocgVz2dmYycIBGozfvVY7lDMArUtvc1UEKlMholtFxvDd57BVOHy2dW5pMfh7pHEv1tGSmm3eVwlURdp-VFppo9LVGvxq1Kx5wI-NWb02HwfnwIs3aO6s5XP58jBAJFXoNWwqFMMulrFP8JsZxJwLj~Qg3hZ5DaJ4OL69Jo9UmbUt7EQHRRZJc93dPhKdD9H~fb2pGPUZgn6TBYINT5Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="image"></img>
+            </div>
+            
+            <br></br><div className="flex flex-col rounded-lg bg-white md:max-w-8xl md:flex-row mm">
+            <img className="fm" src ="https://s3-alpha-sig.figma.com/img/f457/45c4/ec167dba3e78cc55895cff59d2fcb248?Expires=1699833600&Signature=i0OpzDuChWS6NCZXya3RjTnkzF~SJ9O8N0IibC722z7h4BAgKaGAXiO7VJF78IEKe1FPIsZgafreyOk-ySdOtYMdfsrSx0osEPowQbYf6F5DCxSXuSXRkVfWsH1OxwhLMas4tc5oLx4l7NmVdEhNZ~yqy46WeyoPx83MrT0nmC-R-PCxCPawAtp7MG3iPNvow0W4jKG1FRZk846HaitWl4dsSzHanJwkWLxUZ5wkI270zRty1bvzsroxZe6c4dgS~D6~L668pznQ-~9J1piBFV8Q-JFK1XSOuyRpy~J0W1EEF6LoUnQ~MpyX8Cnw~pTucLXFaRsDdJxrz8F81oh6Tg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="image"></img>
+              <br></br><br></br><br></br>
+              <div className="flex flex-col q p-6">
+              
+              
+                
+                <h5 className="mb-2 text-5xl w leading-tight ll">
+                Preventive Maintenance Services
+                </h5>
+                <p className="mb-4 text-2xs mr-20 leading-tight  ll">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.If you are a Hookah business,
+                  please join us and help us defend and protect your business,
+                  our culture and community.
+                </p>
+                </div>
+             </div>
+            <br></br><div className="flex flex-col rounded-lg bg-white md:max-w-8xl md:flex-row mm">
+              <div className="flex flex-col q p-6">
+                
+                <h5 className="mb-2 text-5xl leading-tight ll">
+                AMC</h5><h5 className="mb-2 text-xl leading-tight ll"> (Annual Maintenance Contract)
+                </h5>
+                <p className="mb-4 text-2xs mr-20 leading-tight  ll">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo conseqat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.If you are a Hookah business,
+                  please join us and help us defend and protect your business,
+                  our culture and community.
+                </p>
+              </div><br></br><br></br><br></br>
+              {/* <br></br><br></br><br></br><br></br><br></br> */}
+              <img className="fm" src ="https://s3-alpha-sig.figma.com/img/268b/a5f9/ce3b5a19b77c8cc1d751fa6146dc9d42?Expires=1699833600&Signature=ZlIHLTxTypBcPQq9a0NGMaBkCSfsXoKRpQooMPd6ANxnrYUTbDV02YzLNJSI-jiYbllAycHeOL4aFnEeRBma9g8iPRAedWmLsh3GHHc-e6-jxjskegJYV-yPu0g14dXpj9Fhv8f~bZCsAqmVT29gKGMRMzubIHsW5aRC6Ejb4nk4wgGZRe3pWyoD85JrM2NUxmusSd21T5Fs6yYSRH4LETsoBDsLc9xBDhlpwC7ggRGyY1vvdkHsiUrHd3WpIF~9eX8Ek6HfJGoqXLAH4Qgt7e-qYj7hBTi6aM5IJ3kreHzQs7RHAzq0oK293-7uJz8LWAD5tz1y38pxjhTk0yyhug__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" alt="image"></img>
+            </div>
+              {/* <br></br><br></br><br></br><br></br><br></br> */}
+              
+           
     </div>
   );
 }
