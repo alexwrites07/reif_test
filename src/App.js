@@ -20,6 +20,7 @@ function App() {
      <div className="text-xl flex-flex media2">Glimpse through the round up of the latest  trends in the packaging industry</div>    
      <div className="text-3xl flex-flex media3">News & Updates</div>
      <div className="text-xl flex-flex media4">Our platform serves as a hub for insights, trends, and stories who lead the company forward.</div>
+     <img className ="media56" src={rimg} alt ="image"></img>
      <div className="flex flex-col rounded-lg  dark:bg-neutral-700 md:max-w-full md:flex-row media5">
         <Card className="flex flex-col rounded-lg  dark:bg-neutral-700 md:max-w-full md:flex-row media5">
           <CardHeader
@@ -32,6 +33,7 @@ function App() {
               alt="card-image mediax"
               className="h-full w-full rounded-t-lg object-cover md:h-auto md:w-48 md:rounded-none md:rounded-l-lg sm:max-w-full media6"
             />
+             
           </CardHeader>
           <CardBody>
             <div className="flex flex-col justify-start p-6">
@@ -80,7 +82,7 @@ function App() {
 
           className="w-full object-cover media11"
         />
-          <Typography variant="h4" className="mb-2 media12 text-2xs">
+          <Typography variant="h4" className="mb-2 media12 text-xs">
           Packaging Southasia
         </Typography>
       
